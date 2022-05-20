@@ -1,0 +1,8 @@
+/*				 2A
+//use this to find out the broadcast address */ 
+ifconfig en0 | sed -n 5p | awk '{print $6}'
+
+/* 				 2B
+// use the broadcast address found from 2A
+// to figure out the rest of the IP addresses */
+arp -ani en0 | awk '{print $2}' | sed 's/(//' | sed 's/)//'
