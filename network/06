@@ -1,0 +1,7 @@
+I would use the command
+cat /etc/resolv.conf 
+which didn't actually give me the ip
+address but instead gave me a command 
+scutil --dns
+and on the bottom of the output from this
+there's a nameserver[0] address 
