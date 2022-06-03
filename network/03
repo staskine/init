@@ -1,1 +1,1 @@
-networksetup -listallhardwareports | sed -n 8p | awk '{print $3}'
+networksetup A -listallhardwareports | sed -n 8p | awk '{print $3}'
