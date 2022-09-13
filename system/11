@@ -1,0 +1,2 @@
+*Command to display available diskspace*
+df -h
