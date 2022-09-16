@@ -1,0 +1,2 @@
+*Command that kills background process command*
+sudo pkill <process>

@@ -1,0 +1,3 @@
+*connect via ssh to on the vm
+ip found using hostname -I command*
+ssh <user>@<ip>

@@ -1,0 +1,2 @@
+Cron is a service that checks for tasks
+and executes them according to the schedule.
