@@ -1,0 +1,2 @@
+*script to see the login, UID and path*
+cat /etc/passwd | cut -d : -f numbers
