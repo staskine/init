@@ -1,0 +1,2 @@
+*list all services that are started at boot time and name them*
+systemctl list-unit-files --type service --state=enabled
