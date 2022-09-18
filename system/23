@@ -1,0 +1,3 @@
+Graphic session would be question 22 so by adding a new user via the root.
+SSH session by getting the ip address from the host and then by connecting to the
+session using the ssh key.
