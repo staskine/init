@@ -1,1 +1,3 @@
+/* Identify the MAC address of the Bluetooth PAN */
+
 networksetup A -listallhardwareports | sed -n 8p | awk '{print $3}'

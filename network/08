@@ -1,3 +1,5 @@
+/* Find the provider of slash16.org */
+
 from the info on question 07 it is possible 
 to find the address. with that info and the whois command
 the provider can be found to be Cloudflare

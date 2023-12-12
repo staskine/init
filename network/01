@@ -1,1 +1,4 @@
+/* Get the lists of the network interfaces of the machine without
+displaying any detail for these interfaces. Only the list of names */
+
 ifconfig | grep "[0-9]: " | sed 's/://' | awk '{print $1}'

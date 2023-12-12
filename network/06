@@ -1,3 +1,6 @@
+/* Get the complete path of the file that contains the ip address of the DNS server 
+you're using */
+
 I would use the command
 cat /etc/resolv.conf 
 which didn't actually give me the ip
